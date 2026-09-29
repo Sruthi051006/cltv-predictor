@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customer Lifetime Value Predictor</title>
+<style>
+  :root { --bg:#f6f8fb; --card:#ffffff; --ink:#14213d; --muted:#5b6b82; --brand:#1f4e79; --accent:#f58518;
+          --low:#e45756; --mid:#f5b041; --high:#2ca02c; --line:#e3e9f2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0e1420; --card:#161f30; --ink:#e8eef8; --muted:#9db0cb; --brand:#7fb2e5; --line:#26334a; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); line-height:1.55; }
+  .wrap { max-width:1080px; margin:0 auto; padding:0 20px; }
+  header.hero { background:linear-gradient(135deg,#1f4e79,#3b7cc0); color:#fff; padding:64px 0 56px; }
+  header.hero h1 { margin:0 0 10px; font-size:clamp(28px,5vw,44px); }
+  header.hero p { margin:0 0 26px; max-width:680px; opacity:.92; font-size:18px; }
+  .btn { display:inline-block; padding:12px 22px; border-radius:10px; font-weight:600; text-decoration:none; margin:0 10px 10px 0; border:2px solid #fff; }
+  .btn.primary { background:#fff; color:#1f4e79; }
+  .btn.ghost { color:#fff; }
+  .btn.disabled { opacity:.55; pointer-events:none; }
+  section { padding:44px 0 8px; }
+  h2 { margin:0 0 6px; font-size:26px; }
+  .sub { color:var(--muted); margin:0 0 22px; }
+  .grid { display:grid; gap:16px; }
+  .kpis { grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 20px; }
+  .kpi .v { font-size:32px; font-weight:700; color:var(--brand); }
+  .kpi .l { color:var(--muted); font-size:14px; }
+  .steps { grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); counter-reset:s; }
+  .step { position:relative; padding-top:34px; }
+  .step::before { counter-increment:s; content:counter(s); position:absolute; top:-14px; left:16px; width:32px; height:32px; border-radius:50%;
+                  background:var(--accent); color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .step b { display:block; margin-bottom:4px; }
+  .step span { color:var(--muted); font-size:14px; }
+  .bars .row { display:grid; grid-template-columns:150px 1fr 70px; gap:10px; align-items:center; margin:8px 0; font-size:14px; }
+  .bars .track { background:var(--line); border-radius:8px; height:16px; overflow:hidden; }
+  .bars .fill { background:var(--brand); height:100%; border-radius:8px; }
+  .seg { border-top:6px solid; }
+  .seg.Low { border-color:var(--low); } .seg.Medium { border-color:var(--mid); } .seg.High { border-color:var(--high); }
+  .seg h3 { margin:0 0 4px; } .seg .rng { color:var(--muted); font-size:14px; margin-bottom:8px; }
+  footer { margin-top:48px; padding:26px 0 40px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+  code { background:var(--line); padding:1px 6px; border-radius:6px; }
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <h1>Customer Lifetime Value Predictor</h1>
+  <p>An explainable machine-learning system that predicts how much value each insurance customer will bring, assigns a value segment
+     and tells you <em>why</em> - built with XGBoost and SHAP for Hackathon Challenge 50.</p>
+  <a id="appBtn" class="btn primary" href="#" target="_blank" rel="noopener">Open the live app</a>
+  <a id="repoBtn" class="btn ghost" href="#" target="_blank" rel="noopener">View code on GitHub</a>
+</div></header>
+
+<main class="wrap">
+  <section>
+    <h2>Model performance</h2>
+    <p class="sub">Measured on customers the model never saw during training (20% hold-out).</p>
+    <div class="grid kpis">
+      <div class="card kpi"><div class="v" id="k_mae">-</div><div class="l">MAE - average error</div></div>
+      <div class="card kpi"><div class="v" id="k_rmse">-</div><div class="l">RMSE</div></div>
+      <div class="card kpi"><div class="v" id="k_r2">-</div><div class="l">R-squared</div></div>
+      <div class="card kpi"><div class="v" id="k_seg">-</div><div class="l">Segment accuracy</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <p class="sub">One pipeline runs identically in training and in the app, so raw customer data can be used directly.</p>
+    <div class="grid steps">
+      <div class="card step"><b>Raw customer</b><span>Profile, tenure, claim amount, number of policies.</span></div>
+      <div class="card step"><b>Clean &amp; cap</b><span>Fix types and text, IQR capping of extreme values.</span></div>
+      <div class="card step"><b>Feature engineering</b><span>Claim per year, multi-policy flag, interactions.</span></div>
+      <div class="card step"><b>XGBoost</b><span>Tuned gradient-boosted trees predict CLTV.</span></div>
+      <div class="card step"><b>Decision</b><span>Value segment, confidence band and SHAP factors.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What drives customer value</h2>
+    <p class="sub">Average impact of each factor on the predicted CLTV (mean |SHAP|).</p>
+    <div class="card bars" id="bars"><span class="sub">Run the notebook export to fill this chart.</span></div>
+  </section>
+
+  <section>
+    <h2>Value segments and actions</h2>
+    <p class="sub" id="segSub">Customers are grouped by predicted lifetime value.</p>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+      <div class="card seg Low"><h3>Low</h3><div class="rng" id="r_low"></div>Serve through low-cost digital channels; offer a bundled second policy; avoid expensive retention spend.</div>
+      <div class="card seg Medium"><h3>Medium</h3><div class="rng" id="r_mid"></div>Grow the relationship: cross-sell a second policy or upgrade the cover.</div>
+      <div class="card seg High"><h3>High</h3><div class="rng" id="r_high"></div>Protect: renewal benefits, a dedicated relationship manager, early-renewal discounts.</div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  Dataset: insurance customer CLTV data (89,392 training customers). Model: XGBoost regression with an sklearn preprocessing pipeline.
+  Predictions are estimates with an 80% confidence band, not guarantees.
+</div></footer>
+
+<script>
+  const APP_URL = "";
+  const REPO_URL = "";
+  const $ = (id) => document.getElementById(id);
+  const fmt = (n) => Number(n).toLocaleString(undefined, { maximumFractionDigits: 0 });
+
+  if (APP_URL) { $("appBtn").href = APP_URL; } else { $("appBtn").classList.add("disabled"); $("appBtn").textContent = "Live app - deploy first"; }
+  if (REPO_URL) { $("repoBtn").href = REPO_URL; } else { $("repoBtn").classList.add("disabled"); }
+
+  fetch("metrics.json").then((r) => r.json()).then((d) => {
+    const m = d.metrics || {};
+    $("k_mae").textContent = fmt(m.MAE);
+    $("k_rmse").textContent = fmt(m.RMSE);
+    $("k_r2").textContent = Number(m.R2).toFixed(3);
+    $("k_seg").textContent = (Number(m.segment_accuracy) * 100).toFixed(1) + "%";
+    const t = d.thresholds || [];
+    if (t.length === 2) {
+      $("r_low").textContent = "Predicted CLTV below " + fmt(t[0]);
+      $("r_mid").textContent = "Between " + fmt(t[0]) + " and " + fmt(t[1]);
+      $("r_high").textContent = "Above " + fmt(t[1]);
+    }
+  }).catch(() => {});
+
+  fetch("importance.json").then((r) => r.json()).then((imp) => {
+    const box = $("bars"); box.textContent = "";
+    const items = Object.entries(imp).slice(0, 8);
+    const max = Math.max(...items.map((x) => x[1]), 1);
+    items.forEach(([name, val]) => {
+      const row = document.createElement("div"); row.className = "row";
+      const a = document.createElement("span"); a.textContent = name;
+      const tr = document.createElement("div"); tr.className = "track";
+      const f = document.createElement("div"); f.className = "fill"; f.style.width = (val / max * 100) + "%"; tr.appendChild(f);
+      const b = document.createElement("span"); b.textContent = fmt(val);
+      row.append(a, tr, b); box.appendChild(row);
+    });
+  }).catch(() => {});
+</script>
+</body>
+</html>

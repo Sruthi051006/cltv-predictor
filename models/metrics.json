@@ -1,0 +1,10 @@
+{
+  "MAE": 50314.293,
+  "RMSE": 81775.723,
+  "R2": 0.1646,
+  "train_R2": 0.1644,
+  "segment_accuracy": 0.4989,
+  "baseline_MAE": 57167.45,
+  "n_train": 71513,
+  "n_test": 17879
+}

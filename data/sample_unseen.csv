@@ -1,0 +1,301 @@
+id,gender,area,qualification,income,marital_status,vintage,claim_amount,num_policies,policy,type_of_policy
+31591,Female,Urban,Others,More than 10L,1,1,0,1,B,Platinum
+25656,Male,Rural,High School,5L-10L,1,1,0,More than 1,A,Silver
+71278,Female,Rural,High School,More than 10L,0,6,3705,More than 1,B,Platinum
+78634,Male,Rural,Bachelor,More than 10L,1,2,6130,More than 1,C,Silver
+58450,Female,Urban,Bachelor,2L-5L,0,5,5647,More than 1,B,Platinum
+1489,Male,Rural,High School,5L-10L,0,6,0,More than 1,B,Gold
+53844,Female,Urban,Bachelor,5L-10L,0,5,2992,More than 1,A,Platinum
+21196,Male,Rural,High School,5L-10L,0,6,0,1,B,Platinum
+80842,Male,Rural,Bachelor,More than 10L,0,4,0,More than 1,B,Silver
+62410,Female,Rural,High School,5L-10L,0,8,7594,More than 1,B,Platinum
+4082,Female,Urban,High School,5L-10L,1,4,4089,More than 1,B,Silver
+85862,Male,Urban,High School,5L-10L,0,4,2767,1,B,Platinum
+14632,Male,Urban,Bachelor,More than 10L,1,4,4088,More than 1,A,Gold
+61689,Male,Rural,High School,5L-10L,1,8,3100,More than 1,A,Gold
+53773,Male,Urban,Bachelor,5L-10L,0,3,3069,More than 1,A,Gold
+39395,Male,Urban,High School,5L-10L,1,7,13456,More than 1,A,Gold
+20202,Male,Rural,High School,5L-10L,1,2,0,More than 1,B,Silver
+69850,Male,Rural,High School,5L-10L,0,6,0,More than 1,A,Platinum
+79796,Male,Urban,High School,5L-10L,1,2,6069,More than 1,A,Silver
+42426,Male,Rural,Bachelor,5L-10L,0,4,4811,More than 1,A,Platinum
+63924,Female,Rural,High School,5L-10L,0,6,2256,1,A,Platinum
+30844,Male,Urban,High School,2L-5L,1,4,6420,1,A,Gold
+76511,Male,Urban,High School,5L-10L,0,7,2182,1,A,Silver
+30624,Female,Rural,Bachelor,5L-10L,1,6,2867,More than 1,A,Platinum
+39940,Male,Urban,Bachelor,2L-5L,0,3,5625,More than 1,B,Gold
+82770,Male,Rural,High School,5L-10L,0,1,0,1,A,Gold
+85568,Male,Urban,High School,5L-10L,1,5,0,More than 1,A,Platinum
+17825,Male,Urban,Bachelor,2L-5L,1,5,0,More than 1,B,Gold
+30157,Male,Rural,Bachelor,5L-10L,0,5,2612,1,A,Gold
+11820,Male,Urban,High School,2L-5L,1,4,0,1,B,Gold
+6819,Male,Urban,Bachelor,5L-10L,1,4,4277,1,C,Gold
+77371,Male,Rural,Bachelor,5L-10L,1,6,0,1,B,Gold
+78210,Male,Urban,Bachelor,5L-10L,1,2,6052,More than 1,B,Silver
+24998,Male,Urban,High School,5L-10L,1,7,4198,More than 1,A,Platinum
+65654,Female,Urban,Bachelor,More than 10L,1,8,6444,More than 1,A,Platinum
+55043,Male,Urban,Bachelor,5L-10L,1,4,8377,More than 1,A,Platinum
+5274,Male,Urban,Bachelor,2L-5L,1,8,3937,More than 1,B,Silver
+47255,Male,Urban,High School,5L-10L,1,8,6527,More than 1,A,Platinum
+40159,Female,Urban,High School,5L-10L,1,4,3913,More than 1,A,Gold
+53768,Female,Urban,Bachelor,5L-10L,1,6,5232,1,A,Platinum
+19832,Female,Urban,High School,5L-10L,0,3,6701,More than 1,C,Gold
+30587,Male,Urban,Bachelor,5L-10L,1,8,3864,More than 1,A,Gold
+44873,Male,Urban,Bachelor,2L-5L,1,6,5106,More than 1,A,Silver
+47464,Female,Urban,Bachelor,5L-10L,1,4,6439,More than 1,A,Silver
+35380,Male,Urban,Bachelor,5L-10L,0,8,4980,More than 1,A,Silver
+1242,Female,Urban,High School,5L-10L,0,7,5580,1,B,Silver
+74708,Female,Rural,High School,More than 10L,1,5,0,More than 1,A,Silver
+75898,Female,Urban,High School,5L-10L,1,1,4153,More than 1,A,Platinum
+14638,Male,Rural,Bachelor,5L-10L,0,5,5944,1,A,Platinum
+21730,Female,Urban,High School,5L-10L,0,6,2971,More than 1,A,Platinum
+10748,Female,Rural,Bachelor,5L-10L,1,6,7924,1,B,Platinum
+18871,Male,Urban,Others,5L-10L,1,3,5374,More than 1,A,Silver
+78994,Male,Rural,High School,5L-10L,1,8,4137,More than 1,A,Platinum
+74192,Male,Urban,Bachelor,2L-5L,0,8,6487,1,C,Platinum
+11685,Female,Urban,Bachelor,<=2L,1,2,3700,More than 1,A,Platinum
+69571,Female,Urban,High School,5L-10L,1,4,3556,More than 1,A,Platinum
+10407,Male,Urban,High School,5L-10L,0,7,16167,More than 1,C,Silver
+72259,Male,Rural,Bachelor,5L-10L,1,6,0,More than 1,A,Gold
+51727,Female,Urban,High School,More than 10L,1,2,3620,More than 1,B,Platinum
+35881,Male,Urban,Bachelor,<=2L,1,7,3706,More than 1,A,Platinum
+41260,Female,Urban,Bachelor,5L-10L,0,6,4395,More than 1,B,Platinum
+733,Female,Urban,Bachelor,5L-10L,1,8,12110,More than 1,A,Gold
+19827,Male,Urban,High School,5L-10L,0,1,2091,More than 1,A,Gold
+61542,Female,Rural,High School,5L-10L,1,1,5642,1,C,Silver
+1496,Female,Rural,High School,More than 10L,1,5,0,1,A,Platinum
+44800,Male,Urban,High School,2L-5L,1,7,2592,More than 1,A,Platinum
+48778,Female,Urban,Bachelor,<=2L,1,7,5485,1,A,Silver
+9315,Female,Urban,Bachelor,2L-5L,0,3,7297,More than 1,B,Silver
+60333,Female,Urban,High School,2L-5L,0,5,5752,More than 1,A,Platinum
+21297,Female,Rural,Bachelor,5L-10L,1,4,0,More than 1,A,Platinum
+75576,Female,Rural,High School,5L-10L,0,8,7348,More than 1,A,Platinum
+52323,Male,Urban,Bachelor,More than 10L,0,1,4093,More than 1,A,Platinum
+59541,Female,Rural,High School,5L-10L,0,1,0,More than 1,B,Platinum
+791,Female,Urban,High School,2L-5L,0,2,8291,More than 1,A,Silver
+49935,Female,Urban,High School,5L-10L,0,8,3551,More than 1,A,Gold
+34578,Male,Urban,Bachelor,5L-10L,0,6,5516,More than 1,A,Platinum
+24357,Male,Urban,High School,5L-10L,1,7,4588,More than 1,A,Platinum
+43632,Female,Rural,High School,5L-10L,1,6,5626,More than 1,B,Silver
+60524,Male,Rural,Bachelor,5L-10L,1,7,3416,More than 1,A,Platinum
+62057,Female,Urban,High School,5L-10L,0,2,5740,More than 1,A,Platinum
+45850,Female,Urban,Bachelor,5L-10L,1,7,13451,More than 1,A,Platinum
+76415,Male,Urban,Bachelor,5L-10L,0,4,5059,More than 1,B,Platinum
+20245,Female,Urban,High School,More than 10L,0,2,6006,More than 1,A,Gold
+19622,Male,Rural,Bachelor,5L-10L,1,3,5534,More than 1,C,Platinum
+34460,Male,Urban,Bachelor,5L-10L,1,4,5089,1,A,Platinum
+1160,Male,Urban,High School,2L-5L,0,5,3635,1,B,Platinum
+86412,Female,Urban,High School,5L-10L,1,6,5656,1,A,Platinum
+57947,Female,Urban,Bachelor,5L-10L,0,4,0,More than 1,A,Platinum
+55856,Female,Rural,Bachelor,5L-10L,1,6,0,More than 1,A,Silver
+25339,Female,Urban,High School,5L-10L,1,1,4058,1,A,Platinum
+38081,Female,Urban,High School,2L-5L,1,7,6646,1,B,Gold
+76088,Female,Rural,Others,5L-10L,1,6,0,More than 1,B,Silver
+55781,Male,Urban,High School,2L-5L,1,5,0,More than 1,B,Gold
+51429,Male,Urban,Bachelor,5L-10L,1,2,5020,1,A,Platinum
+3736,Male,Rural,Bachelor,5L-10L,0,3,6023,1,A,Platinum
+24500,Male,Urban,Bachelor,5L-10L,0,4,5543,1,A,Silver
+17284,Male,Rural,High School,More than 10L,1,4,2437,More than 1,A,Gold
+88217,Female,Rural,High School,More than 10L,0,4,0,More than 1,B,Gold
+69352,Male,Rural,Bachelor,5L-10L,1,0,3008,More than 1,A,Silver
+18362,Female,Urban,High School,5L-10L,1,2,3900,More than 1,A,Platinum
+82336,Female,Rural,High School,5L-10L,0,8,0,More than 1,B,Gold
+71264,Female,Urban,High School,5L-10L,0,8,5493,1,A,Platinum
+65295,Male,Urban,Bachelor,5L-10L,1,5,0,1,A,Platinum
+32510,Male,Rural,Bachelor,More than 10L,0,0,0,1,B,Silver
+65168,Male,Rural,Bachelor,5L-10L,0,6,3879,More than 1,B,Platinum
+32999,Male,Urban,High School,5L-10L,1,5,4176,More than 1,A,Platinum
+71170,Female,Urban,High School,2L-5L,1,5,6773,1,A,Platinum
+67283,Male,Rural,Bachelor,5L-10L,0,2,0,1,A,Gold
+3036,Female,Rural,High School,More than 10L,0,7,2631,1,A,Platinum
+80812,Female,Urban,Others,5L-10L,1,6,3843,More than 1,A,Platinum
+77681,Male,Urban,High School,5L-10L,0,4,5822,More than 1,A,Gold
+54523,Male,Urban,Bachelor,2L-5L,1,3,0,More than 1,A,Platinum
+24115,Male,Urban,Bachelor,5L-10L,1,8,3197,More than 1,A,Gold
+79387,Male,Rural,High School,5L-10L,1,6,3592,More than 1,B,Platinum
+87156,Female,Rural,High School,5L-10L,1,5,0,More than 1,B,Platinum
+62673,Female,Urban,High School,2L-5L,0,2,9269,More than 1,B,Platinum
+9643,Female,Rural,Bachelor,More than 10L,0,6,0,More than 1,A,Platinum
+24207,Male,Urban,Bachelor,5L-10L,0,2,4828,More than 1,A,Silver
+55369,Male,Urban,Bachelor,5L-10L,1,0,5740,More than 1,A,Platinum
+51146,Male,Urban,High School,5L-10L,1,2,3430,More than 1,A,Platinum
+48463,Male,Rural,Bachelor,More than 10L,1,7,2841,1,B,Platinum
+51111,Male,Urban,Bachelor,5L-10L,1,6,4874,More than 1,A,Gold
+58572,Male,Urban,Bachelor,5L-10L,1,5,10233,More than 1,A,Platinum
+4982,Male,Urban,Bachelor,5L-10L,0,2,5865,More than 1,A,Platinum
+26261,Male,Urban,High School,2L-5L,1,4,4645,1,C,Gold
+57155,Male,Urban,Bachelor,5L-10L,1,3,2986,1,A,Silver
+14856,Male,Urban,High School,5L-10L,0,1,4130,1,A,Silver
+62300,Female,Urban,High School,<=2L,0,2,4176,More than 1,A,Platinum
+79115,Male,Urban,Bachelor,5L-10L,0,2,3950,More than 1,A,Gold
+71925,Male,Rural,High School,More than 10L,0,7,6262,More than 1,A,Gold
+62728,Male,Urban,High School,2L-5L,0,6,3936,More than 1,A,Platinum
+83804,Male,Urban,Bachelor,5L-10L,1,7,7359,More than 1,A,Platinum
+71514,Male,Urban,Bachelor,5L-10L,0,4,12358,More than 1,A,Platinum
+20122,Female,Urban,Others,More than 10L,1,3,5692,1,C,Gold
+42584,Male,Rural,Bachelor,More than 10L,0,3,6354,1,A,Gold
+43776,Female,Urban,Bachelor,5L-10L,1,4,8395,More than 1,A,Platinum
+1833,Female,Urban,Bachelor,5L-10L,1,2,0,More than 1,A,Platinum
+75895,Male,Rural,Bachelor,5L-10L,0,1,0,1,A,Platinum
+12221,Male,Urban,Bachelor,2L-5L,1,5,5467,1,B,Silver
+15874,Male,Urban,Bachelor,2L-5L,1,6,4588,1,A,Silver
+39784,Female,Urban,High School,5L-10L,0,8,5497,More than 1,A,Platinum
+40278,Male,Urban,Bachelor,2L-5L,0,5,5782,More than 1,A,Platinum
+34062,Female,Rural,Bachelor,More than 10L,1,6,2610,1,A,Platinum
+24126,Female,Urban,High School,5L-10L,0,5,5022,1,A,Gold
+41355,Female,Rural,Bachelor,More than 10L,0,2,0,More than 1,B,Gold
+12871,Female,Rural,High School,5L-10L,0,7,8604,More than 1,B,Platinum
+41209,Female,Urban,Bachelor,5L-10L,0,6,3670,More than 1,A,Platinum
+27538,Female,Urban,Bachelor,2L-5L,0,4,5651,More than 1,A,Silver
+73886,Female,Urban,Others,2L-5L,1,1,9894,1,A,Silver
+85918,Male,Urban,Bachelor,2L-5L,1,2,5290,More than 1,A,Platinum
+60996,Male,Rural,High School,5L-10L,1,5,10120,More than 1,B,Platinum
+35792,Male,Urban,High School,5L-10L,1,0,3282,1,A,Platinum
+37480,Male,Urban,High School,5L-10L,0,4,6053,More than 1,A,Gold
+87813,Male,Urban,Bachelor,5L-10L,1,2,6654,More than 1,A,Platinum
+71916,Male,Urban,High School,2L-5L,1,7,3763,More than 1,B,Platinum
+53835,Male,Urban,Bachelor,5L-10L,1,8,3472,More than 1,A,Platinum
+56215,Male,Rural,High School,5L-10L,1,2,3025,1,C,Silver
+44060,Female,Rural,High School,5L-10L,0,6,5028,More than 1,C,Gold
+71300,Male,Urban,Bachelor,2L-5L,0,7,0,More than 1,B,Silver
+26340,Male,Urban,High School,5L-10L,0,6,4188,More than 1,A,Silver
+38897,Male,Rural,High School,5L-10L,0,3,3868,More than 1,A,Platinum
+81359,Female,Urban,Bachelor,5L-10L,1,0,4933,More than 1,A,Silver
+60228,Male,Urban,Bachelor,5L-10L,1,1,2587,1,A,Gold
+76732,Female,Rural,Others,5L-10L,1,3,3758,More than 1,A,Gold
+38206,Male,Rural,Bachelor,More than 10L,1,7,3708,More than 1,A,Platinum
+45484,Male,Urban,Bachelor,5L-10L,1,1,3253,More than 1,A,Silver
+5135,Male,Rural,Bachelor,More than 10L,0,6,5774,More than 1,A,Gold
+43346,Male,Urban,High School,<=2L,0,7,5710,More than 1,A,Platinum
+2435,Male,Urban,High School,More than 10L,1,3,7027,More than 1,A,Silver
+72337,Male,Urban,High School,More than 10L,0,1,5068,1,A,Platinum
+13412,Female,Rural,Bachelor,2L-5L,1,7,3651,More than 1,B,Gold
+39553,Female,Urban,Bachelor,5L-10L,0,3,7256,More than 1,B,Silver
+36891,Female,Urban,High School,2L-5L,1,3,6151,More than 1,B,Silver
+83639,Female,Urban,Bachelor,5L-10L,1,7,2310,1,B,Platinum
+1315,Male,Urban,High School,5L-10L,1,5,6090,More than 1,B,Gold
+17363,Female,Urban,Bachelor,2L-5L,0,5,4283,1,C,Gold
+84915,Male,Urban,High School,5L-10L,1,2,4370,More than 1,A,Gold
+4304,Female,Rural,Bachelor,2L-5L,1,1,3010,More than 1,B,Silver
+16085,Male,Urban,High School,5L-10L,1,1,2611,More than 1,A,Platinum
+35701,Female,Rural,Bachelor,5L-10L,0,1,9424,More than 1,A,Platinum
+30558,Male,Rural,High School,More than 10L,1,2,0,1,A,Platinum
+63511,Male,Rural,High School,5L-10L,1,2,2565,1,A,Platinum
+653,Female,Rural,Others,5L-10L,0,8,7460,More than 1,A,Platinum
+42396,Male,Rural,Bachelor,5L-10L,1,2,6331,More than 1,C,Silver
+62697,Female,Urban,High School,2L-5L,1,2,7518,More than 1,C,Silver
+10758,Female,Urban,High School,2L-5L,1,1,4715,More than 1,A,Platinum
+80683,Male,Urban,High School,More than 10L,0,2,0,More than 1,A,Platinum
+61333,Male,Rural,High School,5L-10L,1,0,5097,More than 1,A,Silver
+27017,Male,Urban,High School,More than 10L,1,7,10092,1,B,Silver
+4298,Male,Rural,High School,More than 10L,0,5,10874,More than 1,C,Gold
+18458,Male,Urban,High School,5L-10L,1,5,3082,More than 1,B,Platinum
+56491,Female,Urban,High School,5L-10L,0,6,6313,1,A,Platinum
+69962,Male,Rural,High School,5L-10L,0,2,0,More than 1,A,Platinum
+86880,Male,Urban,Bachelor,5L-10L,0,0,8900,More than 1,A,Platinum
+41573,Male,Urban,High School,5L-10L,0,1,10711,1,A,Silver
+22166,Male,Urban,High School,5L-10L,1,7,0,More than 1,A,Platinum
+21779,Female,Urban,High School,5L-10L,0,5,4042,More than 1,B,Platinum
+62631,Female,Urban,High School,2L-5L,0,8,3657,More than 1,B,Platinum
+89392,Female,Rural,High School,5L-10L,0,6,0,More than 1,B,Gold
+31691,Female,Urban,Bachelor,5L-10L,1,7,4338,More than 1,A,Platinum
+82756,Female,Urban,High School,5L-10L,0,7,11009,More than 1,A,Gold
+85383,Female,Rural,High School,5L-10L,0,5,10159,More than 1,A,Platinum
+65891,Male,Urban,High School,More than 10L,0,8,12261,More than 1,A,Silver
+24518,Female,Urban,High School,5L-10L,1,2,6883,1,A,Platinum
+55316,Female,Urban,High School,2L-5L,1,6,5721,More than 1,A,Gold
+27932,Male,Rural,High School,5L-10L,1,7,0,1,A,Gold
+27561,Male,Rural,High School,5L-10L,0,7,3220,More than 1,A,Platinum
+27669,Male,Urban,Bachelor,5L-10L,1,5,3920,More than 1,C,Gold
+48161,Female,Urban,Bachelor,2L-5L,0,2,6872,More than 1,A,Platinum
+17304,Female,Urban,High School,5L-10L,1,3,14607,More than 1,C,Platinum
+6532,Male,Urban,High School,2L-5L,1,4,3795,More than 1,A,Platinum
+83344,Female,Urban,Bachelor,2L-5L,1,5,6545,More than 1,B,Silver
+56733,Male,Urban,Bachelor,More than 10L,0,4,12295,1,A,Platinum
+63732,Male,Urban,Bachelor,More than 10L,0,6,2319,1,C,Gold
+38424,Male,Urban,High School,5L-10L,0,2,9128,More than 1,A,Silver
+84198,Female,Urban,Bachelor,2L-5L,0,8,5376,More than 1,A,Platinum
+29250,Female,Rural,Others,5L-10L,1,4,0,More than 1,B,Silver
+37069,Male,Urban,Bachelor,2L-5L,0,8,4213,More than 1,B,Platinum
+16349,Male,Urban,Bachelor,More than 10L,0,3,12096,More than 1,A,Silver
+67896,Male,Urban,High School,5L-10L,0,5,4243,More than 1,A,Platinum
+26625,Male,Urban,High School,5L-10L,0,4,9270,More than 1,A,Platinum
+6945,Female,Urban,Bachelor,5L-10L,1,8,6034,1,A,Silver
+10100,Female,Urban,Bachelor,5L-10L,1,1,3665,More than 1,A,Platinum
+32493,Female,Rural,Bachelor,5L-10L,0,7,2636,1,B,Platinum
+1508,Male,Urban,Bachelor,2L-5L,1,4,3538,More than 1,A,Gold
+73367,Male,Urban,High School,2L-5L,0,3,0,More than 1,C,Platinum
+21508,Male,Urban,Bachelor,5L-10L,1,3,4192,More than 1,A,Platinum
+7414,Female,Urban,Bachelor,5L-10L,1,6,5516,More than 1,A,Platinum
+62549,Female,Rural,Bachelor,5L-10L,1,8,2540,More than 1,A,Silver
+25466,Female,Urban,Bachelor,5L-10L,1,1,3795,More than 1,B,Silver
+31047,Female,Urban,High School,5L-10L,0,6,3780,More than 1,A,Gold
+61721,Male,Urban,Bachelor,5L-10L,0,6,2883,1,A,Platinum
+52058,Female,Urban,Bachelor,5L-10L,1,8,3116,More than 1,B,Silver
+62625,Female,Rural,Bachelor,5L-10L,1,4,5376,More than 1,A,Platinum
+21292,Female,Urban,High School,5L-10L,0,5,3656,More than 1,A,Platinum
+15350,Female,Urban,High School,2L-5L,1,5,5318,More than 1,A,Silver
+27511,Female,Urban,High School,2L-5L,1,4,6069,More than 1,A,Gold
+26338,Male,Urban,High School,More than 10L,1,1,3484,More than 1,A,Platinum
+76234,Male,Rural,Bachelor,5L-10L,1,5,4729,1,A,Platinum
+79272,Male,Urban,High School,2L-5L,0,6,5139,More than 1,C,Silver
+22220,Female,Urban,Bachelor,5L-10L,1,2,5394,1,B,Silver
+274,Female,Urban,High School,5L-10L,1,5,3751,1,A,Platinum
+27018,Female,Urban,Bachelor,2L-5L,0,6,0,More than 1,B,Platinum
+29772,Female,Urban,Bachelor,5L-10L,0,2,5444,More than 1,A,Platinum
+176,Female,Urban,High School,2L-5L,1,5,5683,More than 1,A,Platinum
+33566,Male,Rural,High School,More than 10L,1,1,0,More than 1,A,Platinum
+78005,Male,Urban,Bachelor,5L-10L,0,7,7767,More than 1,A,Platinum
+64604,Male,Urban,Bachelor,5L-10L,0,7,6858,More than 1,C,Silver
+68726,Female,Urban,Others,2L-5L,1,2,0,More than 1,A,Silver
+80345,Female,Rural,High School,5L-10L,1,8,0,More than 1,C,Platinum
+70261,Female,Urban,High School,2L-5L,1,1,4787,1,A,Platinum
+38413,Male,Urban,High School,<=2L,0,7,5878,More than 1,C,Platinum
+23849,Female,Rural,Bachelor,5L-10L,1,0,2135,More than 1,A,Platinum
+89201,Male,Urban,Bachelor,5L-10L,1,1,2969,More than 1,A,Platinum
+1420,Female,Rural,High School,5L-10L,1,4,2611,More than 1,A,Platinum
+75128,Male,Rural,Bachelor,More than 10L,1,4,0,1,B,Platinum
+82040,Female,Urban,High School,5L-10L,1,2,2856,1,A,Gold
+40107,Male,Rural,Bachelor,5L-10L,1,2,3129,1,A,Silver
+65030,Male,Urban,Bachelor,More than 10L,1,5,2529,1,A,Platinum
+46432,Male,Rural,Bachelor,More than 10L,1,8,0,1,A,Platinum
+50051,Male,Rural,Bachelor,5L-10L,0,1,4574,More than 1,A,Platinum
+17896,Male,Urban,High School,5L-10L,1,1,0,More than 1,A,Gold
+32413,Male,Rural,Bachelor,More than 10L,1,0,0,1,B,Platinum
+85826,Female,Urban,High School,5L-10L,1,7,6448,1,A,Silver
+33837,Male,Rural,High School,5L-10L,0,2,9801,More than 1,A,Platinum
+88662,Female,Rural,Bachelor,2L-5L,1,4,5186,More than 1,B,Silver
+62810,Female,Urban,Bachelor,2L-5L,0,1,5213,More than 1,B,Platinum
+31787,Male,Urban,High School,2L-5L,0,6,2963,More than 1,A,Platinum
+58255,Male,Rural,Bachelor,More than 10L,1,5,2073,1,B,Platinum
+11044,Male,Rural,High School,5L-10L,0,4,2498,More than 1,B,Platinum
+10718,Male,Urban,High School,5L-10L,1,5,3897,1,A,Platinum
+87550,Male,Urban,Bachelor,5L-10L,0,2,10240,More than 1,A,Platinum
+42864,Female,Rural,High School,5L-10L,1,0,3547,1,A,Platinum
+34265,Female,Urban,Bachelor,5L-10L,0,5,13203,More than 1,B,Gold
+1052,Female,Rural,Bachelor,More than 10L,0,4,0,More than 1,A,Platinum
+57065,Female,Urban,High School,More than 10L,0,4,11114,More than 1,A,Gold
+13062,Male,Urban,Bachelor,5L-10L,0,8,6506,More than 1,A,Gold
+83059,Male,Urban,High School,5L-10L,1,1,3497,1,A,Platinum
+50814,Female,Urban,High School,5L-10L,1,6,0,More than 1,A,Silver
+61758,Female,Urban,High School,5L-10L,1,5,6098,1,A,Gold
+37384,Male,Rural,Bachelor,5L-10L,1,1,0,1,A,Platinum
+37023,Female,Urban,High School,5L-10L,1,6,6110,More than 1,B,Silver
+47480,Female,Urban,High School,5L-10L,1,7,7838,More than 1,A,Platinum
+73878,Female,Urban,High School,5L-10L,0,2,4294,More than 1,A,Platinum
+10564,Female,Urban,Bachelor,2L-5L,1,4,3877,More than 1,A,Silver
+32749,Female,Rural,High School,5L-10L,1,4,5966,1,A,Gold
+29177,Male,Urban,High School,2L-5L,0,2,18291,More than 1,A,Gold
+38761,Male,Urban,High School,5L-10L,1,5,6051,More than 1,A,Platinum
+55336,Female,Urban,High School,5L-10L,0,6,2612,More than 1,C,Silver
+21209,Male,Urban,Bachelor,2L-5L,0,3,6359,More than 1,A,Silver
+61253,Male,Urban,High School,<=2L,1,5,5056,More than 1,A,Platinum
+15055,Male,Urban,High School,5L-10L,1,5,6655,More than 1,A,Platinum
+75767,Male,Rural,Bachelor,2L-5L,1,6,2560,1,B,Silver
+31136,Male,Rural,High School,5L-10L,1,6,0,More than 1,A,Silver
+84160,Female,Urban,Others,2L-5L,1,5,0,More than 1,B,Silver
+63702,Male,Urban,Bachelor,5L-10L,1,1,4000,More than 1,A,Gold
+22032,Female,Urban,Bachelor,5L-10L,0,6,2950,More than 1,A,Platinum
+28630,Female,Rural,High School,5L-10L,1,5,2697,More than 1,A,Gold
+25354,Female,Rural,High School,5L-10L,1,8,0,More than 1,B,Platinum
+53301,Male,Rural,High School,5L-10L,1,7,0,More than 1,A,Silver
